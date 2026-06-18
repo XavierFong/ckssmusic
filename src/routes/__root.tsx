@@ -10,6 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import homepageBanner from "../pics/homepagebanner.jpg";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteShell } from "../components/SiteLayout";
 
@@ -86,8 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "CKSS Music Program" },
       { name: "twitter:description", content: "The official home of the CKSS Music Program — classes, ensembles, performances, and more." },
-      { property: "og:image", content: "pics/homepagebanner.jpg" },
-      { name: "twitter:image", content: "pics/homepagebanner.jpg" },
+      { property: "og:image", content: homepageBanner },
+      { name: "twitter:image", content: homepageBanner },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

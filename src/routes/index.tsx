@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Music2, Mic2, Guitar, Users, Sparkles } from "lucide-react";
 import { EditableImage, EditableText } from "@/components/Editable";
+import homepageBanner from "@/pics/homepagebanner.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -12,7 +13,7 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-const HERO = "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&w=2000&q=80";
+const HERO = homepageBanner;
 
 function HomePage() {
   return (
