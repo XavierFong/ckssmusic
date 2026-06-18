@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "CKSS Music Program" },
       { name: "twitter:description", content: "The official home of the CKSS Music Program — classes, ensembles, performances, and more." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d7634e1b-00be-4c25-8b94-84ad2e963fe1/id-preview-8ad6b6ed--5d47998e-183a-4ec6-a259-20c68cbd188a.lovable.app-1781700601459.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d7634e1b-00be-4c25-8b94-84ad2e963fe1/id-preview-8ad6b6ed--5d47998e-183a-4ec6-a259-20c68cbd188a.lovable.app-1781700601459.png" },
+      { property: "og:image", content: "pics/homepagebanner.jpg" },
+      { name: "twitter:image", content: "pics/homepagebanner.jpg" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
