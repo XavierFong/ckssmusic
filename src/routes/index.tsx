@@ -44,7 +44,7 @@ function HomePage() {
           <EditableText
             id="home.subtitle"
             as="p"
-            defaultValue="Where every student finds their voice — vocals, instruments, and ensembles that bring our community together."
+            defaultValue="A community for students to learn, grow, and explore a passion in music."
             className="pointer-events-auto mt-6 max-w-2xl text-base text-white/85 sm:text-lg"
           />
           <div className="pointer-events-auto mt-9 flex flex-wrap items-center justify-center gap-3">
