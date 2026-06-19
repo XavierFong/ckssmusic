@@ -48,7 +48,7 @@ function AboutPage() {
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">Competitions</h2>
             <EditableText
               id="about.values"
-              defaultValue="We believe every student has something to express. Through disciplined practice, supportive mentorship, and joyful collaboration, our musicians grow in confidence, craft, and character. We celebrate progress over perfection and the lifelong friendships that music makes possible."
+              defaultValue="Competitions are a fundamental part of our program’s performance experience. They make up around half of our yearly performances. Here is a brief list of some of the ones we have competed at in the last few years. OVF, OVJF, and MusicFest Nationals"
               className="mt-3 text-base leading-relaxed text-foreground/80"
             />
           </div>
