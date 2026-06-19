@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
+import aboutPageImage from "@/pics/aboutpage.JPG";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -28,7 +29,7 @@ function AboutPage() {
       <div className="mt-16 grid items-start gap-12 md:grid-cols-2 md:gap-16">
         <EditableImage
           id="about.image"
-          defaultSrc="../src/pics/aboutpage.jpg"
+          defaultSrc={aboutPageImage}
           alt="Music students rehearsing"
           className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-border"
           imgClassName="h-full w-full object-cover"
