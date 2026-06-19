@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Music2, Mic2, Guitar, Users, Sparkles } from "lucide-react";
+import { ArrowRight, Music2, Mic2, users, Users, Sparkles } from "lucide-react";
 import { EditableImage, EditableText } from "@/components/Editable";
 import homepageBanner from "@/pics/homepagebanner.jpg";
 
@@ -70,7 +70,7 @@ function HomePage() {
           {[
             { icon: Mic2, key: "vocal", title: "Vocal", body: "There are a variety of opportunities to explore singing from Choral Choir to Neon (Vocal Jazz Enemble) to Vocal Classes from G9 to G12." },
             { icon: Music2, key: "instr", title: "Instrumental", body: "At CKSS, there instrumental and guitar classes for grades 9-12 and both a concert band and a jazz band to grow and excel as an instrumentalist." },
-            { icon: Guitar, key: "guitar", title: "Council", body: "A community of student leaders who oganize events and fundraisers to grow and support the music program." },
+            { icon: users, key: "council", title: "Music Council", body: "A community of student leaders who oganize events and fundraisers to grow and support the music program." },
           ].map(({ icon: Icon, key, title, body }) => (
             <div key={key} className="rounded-3xl border border-border bg-card p-7 transition hover:border-primary/60">
               <div className="grid h-11 w-11 place-items-center rounded-full bg-primary-soft text-accent-foreground">
