@@ -104,13 +104,13 @@ function HomePage() {
             id="home.cta.title"
             as="h2"
             multiline={false}
-            defaultValue="A home for every musician at CKSS."
+            defaultValue="Learn more about the music program at CKSS."
             className="mt-4 max-w-2xl text-4xl font-semibold text-foreground sm:text-5xl"
           />
           <EditableText
             id="home.cta.body"
             as="p"
-            defaultValue="Whether you're picking up an instrument for the first time or preparing for conservatory, our program meets you where you are."
+            defaultValue="Whether you are an experienced musician or just starting out, you can learn and grow in the music program at CKSS."
             className="mt-4 max-w-2xl text-base text-muted-foreground"
           />
           <Link
