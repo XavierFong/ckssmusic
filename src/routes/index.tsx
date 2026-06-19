@@ -68,9 +68,9 @@ function HomePage() {
       <section className="container-page py-24">
         <div className="grid gap-10 md:grid-cols-3">
           {[
-            { icon: Mic2, key: "vocal", title: "Vocal Studies", body: "Build technique, confidence, and artistry through guided vocal instruction." },
-            { icon: Music2, key: "instr", title: "Instrumental Mastery", body: "From woodwinds to brass, develop the fundamentals that take you further." },
-            { icon: Guitar, key: "guitar", title: "Guitar & Strings", body: "Discover chord theory, fingerstyle, and the joy of playing together." },
+            { icon: Mic2, key: "vocal", title: "Vocal", body: "There are a variety of opportunities to explore singing from Choral Choir to Neon (Vocal Jazz Enemble) to Vocal Classes from G9 to G12." },
+            { icon: Music2, key: "instr", title: "Instrumental", body: "At CKSS, there instrumental and guitar classes for grades 9-12 and both a concert band and a jazz band to grow and excel as an instrumentalist." },
+            { icon: Guitar, key: "guitar", title: "Council", body: "A community of student leaders who oganize events and fundraisers to grow and support the music program." },
           ].map(({ icon: Icon, key, title, body }) => (
             <div key={key} className="rounded-3xl border border-border bg-card p-7 transition hover:border-primary/60">
               <div className="grid h-11 w-11 place-items-center rounded-full bg-primary-soft text-accent-foreground">
