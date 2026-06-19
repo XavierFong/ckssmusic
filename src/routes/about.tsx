@@ -28,7 +28,7 @@ function AboutPage() {
       <div className="mt-16 grid items-start gap-12 md:grid-cols-2 md:gap-16">
         <EditableImage
           id="about.image"
-          defaultSrc="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=1400&q=80"
+          defaultSrc="../src/pics/aboutpage.jpg"
           alt="Music students rehearsing"
           className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-border"
           imgClassName="h-full w-full object-cover"
