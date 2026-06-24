@@ -16,12 +16,12 @@ function ContactPage() {
   return (
     <div className="container-page py-24 md:py-32">
       <div className="mx-auto max-w-xl text-center">
-        <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground">Get in Touch</span>
+        <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground">Check us out!</span>
         <EditableText
           id="contact.title"
           as="h1"
           multiline={false}
-          defaultValue="Let's make music together."
+          defaultValue="Any Questions?"
           className="mt-3 text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl"
         />
         <EditableText
@@ -38,12 +38,12 @@ function ContactPage() {
             <Instagram className="h-5 w-5" />
           </div>
           <h2 className="mt-5 text-lg font-semibold text-foreground">Follow on Instagram</h2>
-          <p className="mt-1 text-sm text-muted-foreground">Performances, behind-the-scenes, and announcements.</p>
+          <p className="mt-1 text-sm text-muted-foreground">announcements, behind the scenes, etc</p>
           <div className="mt-5">
             <EditableLink
               id="contact.instagram"
-              defaultHref="https://instagram.com/ckssmusic"
-              defaultLabel="@ckssmusic"
+              defaultHref="https://instagram.com/ckss.music"
+              defaultLabel="@ckss.music"
               external
               className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-semibold text-background transition hover:bg-foreground/90"
               icon={<Instagram className="h-4 w-4" />}
@@ -56,12 +56,12 @@ function ContactPage() {
             <Mail className="h-5 w-5" />
           </div>
           <h2 className="mt-5 text-lg font-semibold text-foreground">Email the Program</h2>
-          <p className="mt-1 text-sm text-muted-foreground">For audition info, parent questions, and inquiries.</p>
+          <p className="mt-1 text-sm text-muted-foreground">For class/ensemble information, student/parents questions, etc</p>
           <div className="mt-5">
             <EditableLink
               id="contact.email"
-              defaultHref="mailto:music@ckss.edu"
-              defaultLabel="music@ckss.edu"
+              defaultHref="mailto:chowk@hdsb.ca"
+              defaultLabel="chowk@hdsb.ca"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]"
               icon={<Mail className="h-4 w-4" />}
             />

@@ -56,7 +56,7 @@ function ExtracurricularsPage() {
         <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground">Ensembles & Groups</span>
         <h1 className="mt-3 text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl">Extracurriculars</h1>
         <p className="mt-5 text-base text-muted-foreground">
-          Beyond the classroom, our five extracurricular groups give students the chance to perform, lead, and grow together.
+          Here are the extracuricular musical clubs and ensembles here at CKSS.
         </p>
       </div>
 
