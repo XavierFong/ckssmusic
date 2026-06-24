@@ -21,31 +21,31 @@ const ENSEMBLES = [
     key: "neon",
     title: "Neon (The Vocal Jazz Ensemble)",
     img: neonImage,
-    body: "Our auditioned vocal jazz group performs sophisticated arrangements with rhythm section accompaniment, traveling to festivals across the province.",
+    body: "Neon is our auditioned vocal jazz ensemble composed of 16 members. Neon, with the support of a rhythm section, perform a variety of SATB jazz and acapella arrangements. Neon competes at OVF and MusicFest Nationals and performs at both the winter and spring concerts. Neon rehearses once a week.",
   },
   {
     key: "concert-choir",
     title: "Concert Choir",
     img: choirImage,
-    body: "Open to all singers, Concert Choir explores a rich repertoire from sacred classics to contemporary works, performing at school and community events.",
+    body: "Concert Choir is open students of all levels. Choir is a great space to improve as a singer and have fun making music in an ensemble. Choir performs a variety of songs from classical compositions to acapella pieces. Choir competes at OVJF and performs at both the winter and spring concerts. Choir rehearses once a week.",
   },
   {
     key: "concert-band",
     title: "Concert Band",
     img: concertBandImage,
-    body: "Wind and percussion musicians come together to perform symphonic literature, building ensemble skill through weekly rehearsals and seasonal concerts.",
+    body: "Concert Band is a large instrumental ensemble composed of woodwinds, brass, and percussion instruments. Through weekly meetings, concert band works on a repertoire to perform at both the winter and spring concerts.",
   },
   {
     key: "jazz-band",
     title: "Jazz Band",
     img: jazzBandImage,
-    body: "Swing, funk, Latin, and fusion — our Jazz Band explores improvisation and big-band tradition while preparing for the annual jazz festival circuit.",
+    body: "Jazz Band is a large instrumental jazz ensemble. Through weekly meetings, jazz band works on a repertoire to perform at both the winter and spring concerts.",
   },
   {
     key: "music-council",
     title: "Music Council",
     img: councilImage,
-    body: "Our student-led leadership team organizes events, supports performances, and builds the culture that makes the CKSS Music Program a second home.",
+    body: "Music Council is a group composed of student leaders who come together once a week to organize and plan school events and fundraisers to further the music program here at CKSS.",
   },
 ];
 
