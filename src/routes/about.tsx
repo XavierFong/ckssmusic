@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
-import aboutPageImage from "@/pics/aboutpage.jpg";
+import aboutPageImage from "@/pics/aboutpage.JPG";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
