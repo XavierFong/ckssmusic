@@ -27,7 +27,7 @@ function ContactPage() {
         <EditableText
           id="contact.body"
           as="p"
-          defaultValue="Questions about auditions, performances, or joining the program? Reach out — we'd love to hear from you."
+          defaultValue="Questions about auditions, performances, or joining the program? Feel free to reach out!"
           className="mt-5 text-base text-muted-foreground"
         />
       </div>
