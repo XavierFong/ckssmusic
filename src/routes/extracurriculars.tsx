@@ -1,5 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
+import neonImage from "@/pics/neonImage.jpg";
+import choirImage from "@/pics/choirImage.jpg";
+import concertBandImage from "@/pics/concertBandImage.jpg";
+import jazzBandImage from "@/pics/jazzBandImage.jpg";
+import councilImage from "@/pics/councilImage.jpg";
 
 export const Route = createFileRoute("/extracurriculars")({
   head: () => ({
@@ -15,31 +20,31 @@ const ENSEMBLES = [
   {
     key: "neon",
     title: "Neon (The Vocal Jazz Ensemble)",
-    img: "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?auto=format&fit=crop&w=1400&q=80",
+    img: neonImage,
     body: "Our auditioned vocal jazz group performs sophisticated arrangements with rhythm section accompaniment, traveling to festivals across the province.",
   },
   {
     key: "concert-choir",
     title: "Concert Choir",
-    img: "https://images.unsplash.com/photo-1465225314224-587cd83d322b?auto=format&fit=crop&w=1400&q=80",
+    img: choirImage,
     body: "Open to all singers, Concert Choir explores a rich repertoire from sacred classics to contemporary works, performing at school and community events.",
   },
   {
     key: "concert-band",
     title: "Concert Band",
-    img: "https://images.unsplash.com/photo-1519683109079-d5f539e1542f?auto=format&fit=crop&w=1400&q=80",
+    img: concertBandImage,
     body: "Wind and percussion musicians come together to perform symphonic literature, building ensemble skill through weekly rehearsals and seasonal concerts.",
   },
   {
     key: "jazz-band",
     title: "Jazz Band",
-    img: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1400&q=80",
+    img: jazzBandImage,
     body: "Swing, funk, Latin, and fusion — our Jazz Band explores improvisation and big-band tradition while preparing for the annual jazz festival circuit.",
   },
   {
     key: "music-council",
     title: "Music Council",
-    img: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1400&q=80",
+    img: councilImage,
     body: "Our student-led leadership team organizes events, supports performances, and builds the culture that makes the CKSS Music Program a second home.",
   },
 ];

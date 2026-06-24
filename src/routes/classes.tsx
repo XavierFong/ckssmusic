@@ -38,7 +38,7 @@ function ClassesPage() {
   return (
     <div className="container-page py-20 md:py-28">
       <div className="max-w-2xl">
-        <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground">Curriculum</span>
+        <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground"></span>
         <h1 className="mt-3 text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl">Classes</h1>
         <p className="mt-5 text-base text-muted-foreground">
           These are the music classes offered here at CKSS.
