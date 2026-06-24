@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
 import vocalClassImage from "@/pics/vocalclass.JPG";
 import instrumentalClassImage from "@/pics/instrumentalclass.JPG";
-import guitarClassImage from "@/pics/guitarclass.JPG";
 
 export const Route = createFileRoute("/classes")({
   head: () => ({
@@ -27,12 +26,12 @@ const CLASSES = [
     img: {instrumentalClassImage},
     body: "Woodwinds, brass, and percussion students build fundamentals — tone production, reading, technique — while preparing concert and festival repertoire.",
   },
-  {
-    key: "guitar",
-    title: "Guitar Class",
-    img: {guitarClassImage},
-    body: "From open chords to fingerstyle and ensemble playing, students explore acoustic and electric guitar across rock, folk, jazz, and classical idioms.",
-  },
+  // {
+  //   key: "guitar",
+  //   title: "Guitar Class",
+  //   img: {guitarClassImage},
+  //   body: "From open chords to fingerstyle and ensemble playing, students explore acoustic and electric guitar across rock, folk, jazz, and classical idioms.",
+  // },
 ];
 
 function ClassesPage() {
