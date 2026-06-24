@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
-import vocalClassImage from "@/pics/vocalclass.JPG";
+import vocalClassImage from "@/pics/vocalclass.jpg";
 import instrumentalClassImage from "@/pics/instrumentalclass.JPG";
 
 export const Route = createFileRoute("/classes")({
@@ -17,13 +17,13 @@ const CLASSES = [
   {
     key: "vocal",
     title: "Vocal Class",
-    img: {vocalClassImage},
+    img: vocalClassImage,
     body: "Develop breath support, tone, range, and stage presence through solo and group repertoire spanning classical, musical theatre, and contemporary styles.",
   },
   {
     key: "instrumental",
     title: "Instrumental Classes",
-    img: {instrumentalClassImage},
+    img: instrumentalClassImage,
     body: "Woodwinds, brass, and percussion students build fundamentals — tone production, reading, technique — while preparing concert and festival repertoire.",
   },
   // {
