@@ -32,7 +32,7 @@ function HomePage() {
         />
         <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center px-6 text-center">
           <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-white backdrop-blur">
-            <Sparkles className="h-3.5 w-3.5" /> 2025 — 2026 Season
+            <Sparkles className="h-3.5 w-3.5" /> Craig Kielburger Secondary School
           </span>
           <EditableText
             id="home.title"

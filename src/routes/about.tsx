@@ -21,7 +21,7 @@ function AboutPage() {
           id="about.title"
           as="h1"
           multiline={false}
-          defaultValue="A Musical Community."
+          defaultValue="The CKSS Music Program."
           className="mt-3 text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl"
         />
       </div>
@@ -48,7 +48,7 @@ function AboutPage() {
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">Competitions</h2>
             <EditableText
               id="about.values"
-              defaultValue="Competitions are a fundamental part of our program’s performance experience. They make up around half of our yearly performances. Here is a brief list of some of the ones we have competed at in the last few years. OVF, OVJF, and MusicFest Nationals"
+              defaultValue="Competitions are a fundamental part of our program’s performance experience. They make up around half of our yearly performances. Here is a brief list of some of the ones we have competed at in the last few years: OVF, OVJF, and MusicFest Nationals"
               className="mt-3 text-base leading-relaxed text-foreground/80"
             />
           </div>

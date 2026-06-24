@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
+import vocalClassImage from "@/pics/vocalclass.JPG";
+import instrumentalClassImage from "@/pics/instrumentalclass.JPG";
+import guitarClassImage from "@/pics/guitarclass.JPG";
 
 export const Route = createFileRoute("/classes")({
   head: () => ({
@@ -15,19 +18,19 @@ const CLASSES = [
   {
     key: "vocal",
     title: "Vocal Class",
-    img: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    img: {vocalClassImage},
     body: "Develop breath support, tone, range, and stage presence through solo and group repertoire spanning classical, musical theatre, and contemporary styles.",
   },
   {
     key: "instrumental",
     title: "Instrumental Classes",
-    img: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1200&q=80",
+    img: {instrumentalClassImage},
     body: "Woodwinds, brass, and percussion students build fundamentals — tone production, reading, technique — while preparing concert and festival repertoire.",
   },
   {
     key: "guitar",
     title: "Guitar Class",
-    img: "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=1200&q=80",
+    img: {guitarClassImage},
     body: "From open chords to fingerstyle and ensemble playing, students explore acoustic and electric guitar across rock, folk, jazz, and classical idioms.",
   },
 ];
