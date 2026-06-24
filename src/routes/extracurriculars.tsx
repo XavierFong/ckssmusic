@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { EditableImage, EditableText } from "@/components/Editable";
-import neonImage from "@/pics/neonImage.jpg";
+import neonImage from "@/pics/neonImage.JPG";
 import choirImage from "@/pics/choirImage.jpg";
 import concertBandImage from "@/pics/concertBandImage.jpg";
 import jazzBandImage from "@/pics/jazzBandImage.jpg";
-import councilImage from "@/pics/councilImage.jpg";
+import councilImage from "@/pics/councilImage.JPG";
 
 export const Route = createFileRoute("/extracurriculars")({
   head: () => ({
