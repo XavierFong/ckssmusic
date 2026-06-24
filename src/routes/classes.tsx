@@ -7,7 +7,7 @@ export const Route = createFileRoute("/classes")({
   head: () => ({
     meta: [
       { title: "Classes — CKSS Music Program" },
-      { name: "description", content: "Vocal, Instrumental, and Guitar classes offered through the CKSS Music Program." },
+      { name: "description", content: "Vocal, Instrumental classes offered through the CKSS Music Program." },
     ],
   }),
   component: ClassesPage,
@@ -18,13 +18,13 @@ const CLASSES = [
     key: "vocal",
     title: "Vocal Class",
     img: vocalClassImage,
-    body: "Develop breath support, tone, range, and stage presence through solo and group repertoire spanning classical, musical theatre, and contemporary styles.",
+    body: "Vocal class is offered for grades 9-12 and is a great way to improve your singing skills, learn more about vocal music and technique, and have fun making music with other students.",
   },
   {
     key: "instrumental",
     title: "Instrumental Classes",
     img: instrumentalClassImage,
-    body: "Woodwinds, brass, and percussion students build fundamentals — tone production, reading, technique — while preparing concert and festival repertoire.",
+    body: "Instrumental class is offered for grades 9-12 and is a great way to improve your instrument skills with both familiar and unfamiliar instruments while having fun making music in a class ensemble.",
   },
   // {
   //   key: "guitar",
@@ -41,7 +41,7 @@ function ClassesPage() {
         <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-foreground">Curriculum</span>
         <h1 className="mt-3 text-5xl font-semibold leading-[1.05] text-foreground sm:text-6xl">Classes</h1>
         <p className="mt-5 text-base text-muted-foreground">
-          Three core courses anchor the CKSS Music Program. Each balances technique, theory, and the joy of making music together.
+          These are the music classes offered here at CKSS.
         </p>
       </div>
 
