@@ -19,7 +19,7 @@ export const Route = createFileRoute("/extracurriculars")({
 const ENSEMBLES = [
   {
     key: "neon",
-    title: "Neon (The Vocal Jazz Ensemble)",
+    title: "Neon (Vocal Jazz Ensemble)",
     img: neonImage,
     body: "Neon is our auditioned vocal jazz ensemble composed of 16 members. Neon, with the support of a rhythm section, perform a variety of SATB jazz and acapella arrangements. Neon competes at OVF and MusicFest Nationals and performs at both the winter and spring concerts. Neon rehearses once a week.",
   },
