@@ -36,7 +36,7 @@ function AboutPage() {
         />
         <div className="space-y-8">
           <div>
-            <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">Our Story</h2>
+            <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">Music at CKSS</h2>
             <EditableText
               id="about.story"
               defaultValue="We are the music program from Craig Kielburger Secondary School Milton! We run a variety of both classes and extracurriculars in the musical department. With experienced instructors in both the vocal and instrumental fields of music, our program is very diverse and always eager to grow and learn. Our ensembles compete at various levels and are able to perform alongside groups from all across the country and obtain invaluable learning experiences from professionals in their fields. People who allow our students' passions for music to develop and grow. Our different groups rehearse weekly from September to May, working on repertoire and learning how to work together as one big team. Students are able to work on their leadership and fundraising skills in the Music Council, as well as their interpersonal skills when running events for the general public. Our program works towards building community and encouraging success. We want to build musicians and use our skills to spread a positive message around the school and wider community around us."
